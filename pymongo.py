@@ -1,6 +1,6 @@
-# start the mongodb with the CLI command mondgod
+# start the mongodb with the CLI command "mongod"
 # you may get an error that the data path folder doesn't exist
-# use mongod --dbpath /usr/local/mongodb-data to set the new directory for your data. dir must exist before comman can be run
+# use mongod --dbpath /usr/local/mongodb-data to set the new directory for your data. dir must exist before command can be run
 
 from pymongo import MongoClient
 client = MongoClient()
